@@ -26,6 +26,7 @@ public class Main {
                 System.out.println("Introduce cualquier punto de la recta");
                 double pointA = sc.nextDouble();
                 //el.linealEquation(1, 2, pointA);
+                return;
             case 2:
                 System.out.println("Funciones afines, datos necesarios:");
                 relatedEquationType er = new relatedEquationType();
@@ -43,6 +44,7 @@ public class Main {
                 int mValue = sc.nextInt();
                 System.out.println("El segundo punto es: ");
                 System.out.println("("+mValue+","+er.relatedEquation(mConst, nConst, mValue)+")");
+                return;
             case 3:
                 System.out.println("Primer paso, calcular el vértice");
                 // Vértice: x,y
@@ -55,7 +57,7 @@ public class Main {
                 System.out.println(qe.vertexEquationSymmetry(bNumber, aNumber));
                 System.out.println("Calcular los puntos de corte con los ejes..");
                 System.out.println(qe.shortPoints(aNumber, bNumber, cNumber));
-
+                return;
 
         }
     }
