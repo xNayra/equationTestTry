@@ -38,7 +38,7 @@ public class Main {
                     System.out.println("La función es decreciente.");
                 }else{
                     System.out.println("La función es creciente");
-                }
+                    }
                 System.out.println("(Primer punto: 0,"+nConst+")");
                 System.out.println("Introduce el valor por el que quieres obtener el segundo punto.");
                 int mValue = sc.nextInt();
